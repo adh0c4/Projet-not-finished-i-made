@@ -31,7 +31,7 @@ class anim(pygame.sprite.Sprite) :
 #dont load out of the class will creat many of bugs and shits like that 
 def load_anim(sprite_name) :
     image_list = []
-    path = f"assets/Sprites/{sprite_name}/{sprite_name}"
+    path = f"Game project/assets/Sprites/{sprite_name}/{sprite_name}"
 
     #will load the images in the list by the path of each sprites
     #The way i stocked the sprites look like i dont know what im actually doing but trust the process...
