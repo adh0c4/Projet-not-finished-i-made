@@ -7,7 +7,7 @@ pygame.init()
 
 
 #Screen of the game
-img = pygame.image.load('icone.ico')
+img = pygame.image.load('Game project/icone.ico')
 clock = pygame.time.Clock()
 pygame.display.set_icon(img)
 pygame.display.set_caption("baptiste adventure")
@@ -20,7 +20,7 @@ class Player(assets.Mouvements.anim) :
     
     def __init__(self):
         
-        self.image = pygame.image.load('assets/Sprites/player/player.png')
+        self.image = pygame.image.load('Game project/assets/Sprites/player/player.png')
         self.baptiste = pygame.transform.scale(self.image, (35, 60))
         self.rect = self.image.get_rect()
         self.positionx = 185
@@ -72,7 +72,6 @@ while running:
     
     clock.tick(60)  # limits FPS to 60
 pygame.quit()
-
 
 
 
